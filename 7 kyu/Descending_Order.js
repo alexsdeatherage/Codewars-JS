@@ -19,8 +19,10 @@ function descendingOrder(n){
 // Convert number to string, and then string to an array, because we need to use methods of array.
 
 // String(n) to convert our input into a string, so that we can use split.
-// .split('') so that we can convert our string into an array with individual characters
+// .split('') so that we can convert our string into an array with individual characters.
 // .sort() to rearrange our string characters from lowest to highest.
 // .reverse() to flip our arrangement to highest to lowest.
-// .join('') to convert our array back into a string, so that we can use parseInt()
-// parseInt() on the outside will convert our joined string into a number
+// .join('') to convert our array back into a string, so that we can use parseInt().
+// parseInt() on the outside will convert our joined string into a number.
+
+// The stuff above is from a comment from codewars useful stuff.
