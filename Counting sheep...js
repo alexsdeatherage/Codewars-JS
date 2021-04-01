@@ -22,3 +22,8 @@ function countSheeps(arrayOfSheep) {
     })
     return counter
   }
+
+// ES6 solution
+//   function countSheeps(arrayOfSheeps) {
+//     return arrayOfSheeps.filter(Boolean).length;
+//   }
