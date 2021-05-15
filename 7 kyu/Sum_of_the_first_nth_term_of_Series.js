@@ -7,7 +7,7 @@
 
 // If the given value is 0 then it should return 0.00
 
-// You will only be given Natural Numbers as arguments
+// You will only be given Natural Numbers as arguments.
 
 // Examples:
 // SeriesSum(1) => 1 = "1.00"
