@@ -9,6 +9,7 @@
 // ""              ==>  ""
 
 function cleanString(s) {
+  // initialize empty charcter array.
     const chars = []
     
     for (const char of s) {
