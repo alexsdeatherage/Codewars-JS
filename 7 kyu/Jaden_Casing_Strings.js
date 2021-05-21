@@ -15,6 +15,8 @@ String.prototype.toJadenCase = function () {
     // Splits the string to an array of strings.
     let words = this.split(" ")
     
+    // iterates through the array and Uppercase the first letter
+    // while appending it to a substring.
     for (let i = 0; i < words.length; i++) {
       words[i] = words[i][0].toUpperCase() + words[i].substr(1);
     }
