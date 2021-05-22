@@ -6,6 +6,8 @@
 
 function findUniq(arr) {
     newArr = []
+
+    // iterates through arr, and checks if the last index element and the first index element are the same value
     arr.forEach((e) => {
       if (arr.indexOf(e) === arr.lastIndexOf(e)){
         newArr.push(e)
